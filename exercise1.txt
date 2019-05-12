@@ -1,3 +1,4 @@
+/*Declaring a set of namespace used by my program */
 using System;
 using System.Collections.Generic;
 using System.IO;
