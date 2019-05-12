@@ -13,9 +13,10 @@ namespace Exercise
     { 
   
   
-  
+   
   static void Odd_Asterisk()
         {
+         /* declaring variables */
             int i, j, k;
            
             int spc;
