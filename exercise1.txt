@@ -1,0 +1,43 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Text;
+using System.Threading.Tasks;
+using System.Linq;
+
+namespace Exercise
+{
+
+    class Program
+
+    { 
+  
+  
+  
+  static void Odd_Asterisk()
+        {
+            int i, j, k;
+           
+            int spc;
+            Console.Write("\n\n");
+            Console.Write("display the the pattern like pyramid using an asterisk and each row contian an odd number of an asterisk  :\n");
+            Console.Write("------------------------------------------------------");
+            Console.Write("\n\n");
+            Console.Write("input the number of rows :");
+            int rows = Convert.ToInt32(Console.ReadLine());
+            spc = rows + 4 - 1;
+            for(i=1;i<=rows;i++ )
+            {
+                for (k = spc; k >= 1; k--)
+                {
+                    Console.Write(" ");
+                }
+                for (j = 1; j <= 2*i-1; j++)
+                    
+                Console.Write("*"+" ");
+                Console.WriteLine("\n");
+                spc--;
+            }
+     }
+     
+     }
